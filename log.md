@@ -1,30 +1,21 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: May 19, 2019
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Setup project and implement initial idea of command line interpreter
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** 
 
-**Link to work:** [Calculator App](http://www.example.com)
+จุดประสงค์ของการเล่น #100DaysOfCode ของผมคืออยากจะ challenge ตัวเองและอยากเรียนรู้ทั้งงานที่ทำอยู่และสิ่งที่ยังไม่เคยเรียนให้กว้างออกไป ปัญหาแรกเลยคือหาโปรเจ็คไม่ได้ แต่ปัญหาต่อมาพอมีไอเดียวผุดขึ้นมาแล้ว ไอเดียโปรเจ็คมันขึ้นมาทีละหลายๆอัน เต็มหัวไปหมด วิธีการ Filter คือจะใช้ value tree ในการคัดกรองมันออกมา หลักๆด้วยเหตุผลของความยืดหยุ่นเช่น microesrvice ที่ใช้ได้หลายภาษา และหลายๆ เทคโนโลยีปนๆกัน อีกทั้งทำแบบ continuous development ได้ได้เรื่อยๆ
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+ตามกฏคือต้องประกาศให้สาธารณะรู้ว่า ฉันจะเริ่มแล้วนะ โอเคเราเริ่มวันที่ 19 May 2019
+และสำหรับหรับ progress เราจะใช้  log.md file และก็ Post ใน twitter และ FB Group ไปพร้อมๆกัน
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+โปรเจ็คที่จะทำชื่อ generic build flow ยกตัวอย่างง่ายๆ อย่างของ maven หรือ buck build ของ fb แต่ไม่ได้รวมเรื่อง dependencies ด้วย
+ที่มาของไอเดียนี้คือในระบบการทำงานด้วย automated ส่วนใหญ่โปรเจ็คจะมี build flow ที่หลายหลาย แต่จะมี life cycle ไม่ต่างกัน ส่วนมากในโปรเจ็คที่ผ่านมาจะ automate กันหรือสร้างเครื่องมีนี้ผ่าน shell script หรืออะไรที่ ฝั่งทาง system admin หรือ infra ทำกันได้ แต่ Dev จะมองไม่ออก ส่วนมากจาก copy พูดแบบไพเราะคือ duplicate code การแก้ปัญหาก็จะเอาลงไปใน Design ด้วยอาจจะเป็น DSL หรือ เอาพวก Markdown มาใช้ในการทำ Grammar ก็อาจจะเป็นไปได้ในทางเลือกหนึ่ง
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+มาเริ่มกันเลย ด้วยการเลือกภาษาก่อน ในใจมีภาษาในใจคือ Golang กับ Rust ซึ่งเค้าน่าจะเหมาะกับงาน system programming อะไรพวกนี้ แต่งานที่ทำอยุ่ประจำตอนนี้คือภาษา clojure เราจะเอา clojure มาทำตรงนี้ก็คงไม่ผิดอะไรแล้วค่อยไป เพราะตอบโจทย์วัฒถุประสงค์แรกคือ เรียนรู้ที่แล้วทำอยู่แล้ว
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+วางแผนการทำงาน ผมจะ commit แบบ atomic คือ daily commit ทั้ง 100 วันนี้จะมีแค่ 100 commit ใน 100 วัน เพื่อให้ progress สอดคล้องกับ [log.md](https://github.com/supaket/100-days-of-code/blob/master/log.md) ก็คิดว่า 100 วันข้างหน้าโปรเจ็คจะมี 100 commit.
 
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to work:** [Generic build flow](https://github.com/supaket/gbf/commit/74dcf0c7cf95ce0048e03760e3e7588892f2491e)
