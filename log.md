@@ -18,4 +18,13 @@
 
 วางแผนการทำงาน ผมจะ commit แบบ atomic คือ daily commit ทั้ง 100 วันนี้จะมีแค่ 100 commit ใน 100 วัน เพื่อให้ progress สอดคล้องกับ [log.md](https://github.com/supaket/100-days-of-code/blob/master/log.md) ก็คิดว่า 100 วันข้างหน้าโปรเจ็คจะมี 100 commit.
 
-**Link to work:** [Generic build flow](https://github.com/supaket/gbf/commit/74dcf0c7cf95ce0048e03760e3e7588892f2491e)
+**Link to work:** [Generic build flow](https://github.com/supaket/gbf/commit/74dcf)
+
+### Day 001: May 21, 2019
+**Today's Progress**: Add file input
+
+**Thoughts:**
+วันนี้ขอเปลี่ยนเวลาจาก ตอนเย็นเป็นเช้าๆ ในการเล่น 100 days of code เพราะรู้สึกว่าตอนเช้าหัวจะแล่นกว่า แต่เปล่าเลยกลายเป็นคิดอะไรไม่ออก
+อาจจะเป็นเพราะว่าวันแรกก็ได้ ความคืบหน้าวันนี้คือ คิดไว้หลายๆอยาก แต่ยังไม่ตกผลึกสรุปได้โค้ดมาบรรทัดเดียวทั้งชั่วโมง (0.01x programmer) ที่คิดไว้คือจะรับค่ามาเป็นไฟล์แล้วก็อ่านออกมาเป็น state แต่คิดวกไปวันมา อาจจะไปทำตรง state definition ก่อน ลองไปตามอ่านโค้ดของ ansible, docker-compose และ drone.io แล้วอาจจะได้ inspiration หรือไอเดียบางอย่างมา
+
+**Link to work:** [Generic build flow](https://github.com/supaket/gbf/commit/fac00)
